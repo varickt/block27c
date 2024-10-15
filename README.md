@@ -20,3 +20,16 @@ Note: The code is _not_ functional yet! `npm run dev` will serve a broken page u
 ## Submission
 
 Please submit the link to your GitHub repository.
+
+
+
+### File Descriptions:
+- **api/puppyBowlApi.js**: This file contains the API slice for fetching, adding, and removing players using RTK Query.
+- **app/store.js**: This is the Redux store configuration where the RTK Query middleware and reducers are applied.
+- **features/players/Players.jsx**: The `Players` component fetches and displays the list of players, allowing the user to select one for more details.
+- **App.js**: The main app component where the `Players` component is rendered.
+- **index.js**: The entry point of the app that renders everything inside the `root` element and sets up the Redux store provider.
+- **public/index.html**: The main HTML file where the app is injected.
+
+
+
